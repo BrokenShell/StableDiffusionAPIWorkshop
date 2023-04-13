@@ -1,0 +1,8 @@
+keras
+keras_cv
+tensorflow
+tensorflow-datasets
+Pillow
+pycocotools
+Fastapi
+uvicorn[standard]
