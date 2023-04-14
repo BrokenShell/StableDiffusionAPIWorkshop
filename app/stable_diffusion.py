@@ -20,7 +20,7 @@ class Leo:
 if __name__ == '__main__':
     leo = Leo()
     leo(
-        image_id="0001",
+        image_id="001",
         prompt="High resolution 3d model. Leopard sitting in front of a computer wearing a green hoodie.",
         epochs=20,
     )

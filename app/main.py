@@ -40,7 +40,7 @@ async def text_to_image(queue: BackgroundTasks, prompt: str):
     return image_id
 
 
-@API.get("/image/{image_id}")
+@API.get("/image/{image_id}", tags=["StableDiffusion"])
 async def image_by_id(image_id: str):
     image_path = os.path.join("app", "images", f"{image_id}.png")
     if os.path.exists(image_path):
